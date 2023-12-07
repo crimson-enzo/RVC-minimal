@@ -1,0 +1,22 @@
+#1.Install torch from pytorch.org:
+#torch 2.0 with cuda 11.8
+#pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+#torch 1.11.0 with cuda 11.3
+#pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
+
+# 2. Install other dependencies below:
+#pip install -r requirements.txt
+
+# Core dependencies
+fairseq
+faiss-cpu
+librosa
+praat-parselmouth
+pyworld
+scipy
+torchcrepe
+
+# UI-related dependencies
+python-dotenv
+PySimpleGUI
+sounddevice
